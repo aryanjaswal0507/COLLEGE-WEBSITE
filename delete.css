@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('path/to/your/background-image.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Default text color */
+    max-width: 1200px; /* Set max width for body */
+    margin-left: auto; /* Center body */
+    margin-right: auto; /* Center body */
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+    padding: 10px 0;
+    max-width: 1200px; /* Match the body max width */
+    margin: 0 auto; /* Center header */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.address {
+    font-size: 14px;
+}
+
+/* Navigation styling */
+nav {
+    max-width: 1200px; /* Match the body max width */
+    margin: 0 auto; /* Center navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 1200px; /* Match the body max width */
+    margin: 0 auto; /* Center main content */
+}
+
+/* Hero section styling */
+.hero {
+    height: 40vh; /* Reduced height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+    width: 100%; /* Full width */
+}
+
+.hero-text {
+    color: white; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for visibility */
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-text a.btn:hover {
+    background-color: #45a049;
+}
