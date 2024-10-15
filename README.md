@@ -1,25 +1,32 @@
 # Jawaharlal Nehru Government Engineering College Website
 
-Welcome to the official website of Jawaharlal Nehru Government Engineering College. This project showcases the college's information, including admissions, academic units, events, and contact details.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Contributing](#contributing)
-- [License](#license)
+This project is a simple prototype for the website of Jawaharlal Nehru Government Engineering College. It showcases various sections of the college, providing information about the institution, announcements, academic units, and FAQs. The website is designed to be responsive and user-friendly, ensuring a smooth experience for all users.
 
 ## Features
 
-- **Responsive Design:** The website is optimized for different devices, ensuring a good user experience on both desktops and mobile devices.
-- **Hero Section:** A welcoming section with a background image and a call-to-action button.
-- **Information Sections:** Detailed information about the college, including an about section, principal's message, announcements, academic units, FAQs, and a photo gallery.
-- **Navigation Menu:** Easy navigation through various sections of the website.
-- **Footer Links:** Includes links to privacy policy, terms of service, and contact information.
+- **Hero Section**: A welcoming introduction to the college with a background image and a prominent call-to-action button.
+- **Header**: Displays the college logo, title, and address, with a link to the location on Google Maps.
+- **Navigation Menu**: Provides easy access to different sections such as Home, About Us, Departments, Admission, Research, and Contact.
+- **About Us Section**: Offers a brief overview of the college along with a video tour to enhance visitor engagement.
+- **Principal's Message**: A dedicated section featuring a message from the principal to add a personal touch.
+- **Announcements**: Highlights important updates and events happening at the college.
+- **Academic Units**: Lists various engineering departments and programs offered at the college.
+- **FAQs**: Provides answers to common questions regarding courses, admissions, and campus facilities.
+- **Photo Gallery**: Showcases images of the campus, events, and other relevant visuals to give a glimpse of college life.
+- **Footer**: Contains links to the Privacy Policy, Terms of Service, and the Contact Us page.
 
-## Installation
+## Technologies Used
+
+- **HTML**: For the structure and content of the web pages.
+- **CSS**: For styling and layout to ensure an attractive interface.
+
+## Getting Started
+
+### Prerequisites
+
+- A web browser (e.g., Chrome, Firefox) to view the website.
+
+### Installation
 
 1. Clone the repository:
    ```bash
